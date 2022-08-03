@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wnhl.wnhl_android">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:screenOrientation="portrait"
+        android:allowBackup="false"
+        android:fullBackupContent="false"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/Theme.WNHL_Splash">
+        <activity android:name="com.wnhl.wnhl_android.Notifications"/>
+        <activity android:name="com.wnhl.wnhl_android.Players"/>
+        <activity android:name="com.wnhl.wnhl_android.Stats"/>
+        <activity android:name="com.wnhl.wnhl_android.WNHL_Teams" />
+        <activity android:name="com.wnhl.wnhl_android.WNHL_Player" />
+        <activity android:name="com.wnhl.wnhl_android.WNHL_Schedule" />
+        <activity android:name="com.wnhl.wnhl_android.Update"/>
+        <activity android:name="com.wnhl.wnhl_android.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <receiver android:name="com.wnhl.wnhl_android.AlertReceiver" />
+        <receiver
+            android:name="com.wnhl.wnhl_android.BootReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:label="BootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="${mapsApiKey}" />
+    </application>
+</manifest>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wnhl.wnhl_android.fragments.More_Fragment"
+    android:background="@color/orange"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:id="@+id/teamsLogoView"
+            android:layout_width="137dp"
+            android:layout_height="146dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:contentDescription="@string/teamlogo"
+            android:paddingTop="10dp"
+            android:src="@drawable/wnhl_logo" />
+
+        <ScrollView
+            android:id="@+id/teamsScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/teamsLogoView"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp">
+
+            <LinearLayout
+                android:id="@+id/standingsHolder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+        </ScrollView>
+    </RelativeLayout>
+</FrameLayout>

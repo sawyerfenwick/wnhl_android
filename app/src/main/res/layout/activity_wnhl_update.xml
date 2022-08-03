@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/orange"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/teamsLogoView"
+        android:layout_width="137dp"
+        android:layout_height="146dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/teamlogo"
+        android:paddingTop="10dp"
+        android:src="@drawable/wnhl_logo" />
+
+    <TextView
+        android:id="@+id/notifTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/teamsLogoView"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="@string/updateapp"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/notifText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/notifTitle"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text="@string/update_text"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/notifText"
+        android:orientation="vertical"
+        >
+        <Button
+            android:id="@+id/playerButton"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_more_players_white"
+            android:drawableRight="@drawable/ic_baseline_update_24"
+            android:gravity="center_vertical"
+            android:text="@string/more_players"
+            android:textColor="@color/white" />
+        <Button
+            android:id="@+id/gamesButton"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_calendar_today_24"
+            android:drawableRight="@drawable/ic_baseline_update_24"
+            android:gravity="center_vertical"
+            android:text="@string/updategames"
+            android:textColor="@color/white" />
+        <Button
+            android:id="@+id/teamButton"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_more_teams_white"
+            android:drawableRight="@drawable/ic_baseline_update_24"
+            android:gravity="center_vertical"
+            android:text="@string/teams"
+            android:textColor="@color/white" />
+        <Button
+            android:id="@+id/standingsButton"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_bar_chart_24"
+            android:drawableRight="@drawable/ic_baseline_update_24"
+            android:gravity="center_vertical"
+            android:text="@string/menubar_standings"
+            android:textColor="@color/white" />
+        <Button
+            android:id="@+id/everythingButton"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_system_update_24"
+            android:drawableRight="@drawable/ic_baseline_update_24"
+            android:gravity="center_vertical"
+            android:text="@string/everything"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</RelativeLayout>

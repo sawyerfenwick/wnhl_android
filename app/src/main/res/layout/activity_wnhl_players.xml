@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/orange"
+    android:id="@+id/rel"
+
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="20dp"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@id/title"
+        android:src="@drawable/ic_more_players_white" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:padding="10dp"
+        android:text="PLAYERS"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_more_players_white"
+        android:layout_toRightOf="@id/title"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        />
+
+    <ScrollView
+        android:id="@+id/player_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title">
+
+        <LinearLayout
+            android:id="@+id/playerButtonHolder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+</RelativeLayout>

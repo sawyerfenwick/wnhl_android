@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wnhl.wnhl_android.fragments.More_Fragment"
+    android:background="@color/orange"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:id="@+id/teamsLogoView"
+            android:layout_width="137dp"
+            android:layout_height="146dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:contentDescription="@string/teamlogo"
+            android:paddingTop="10dp"
+            android:src="@drawable/wnhl_logo" />
+        <TextView
+            android:id="@+id/teams_title"
+            android:layout_below="@id/teamsLogoView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            />
+        <ScrollView
+            android:id="@+id/teamsScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/teamsLogoView"
+            android:paddingTop="20dp">
+
+            <LinearLayout
+                android:id="@+id/teamsButtonHolder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button0"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableEnd="@drawable/ic_arrow_right_white"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/white"
+                    android:visibility="invisible" />
+
+                <Button
+                    android:id="@+id/button1"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableEnd="@drawable/ic_arrow_right_white"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/white"
+                    android:visibility="invisible" />
+
+                <Button
+                    android:id="@+id/button2"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableEnd="@drawable/ic_arrow_right_white"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/white"
+                    android:visibility="invisible" />
+
+                <Button
+                    android:id="@+id/button3"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableEnd="@drawable/ic_arrow_right_white"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/white"
+                    android:visibility="invisible" />
+
+                <Button
+                    android:id="@+id/button4"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableEnd="@drawable/ic_arrow_right_white"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/white"
+                    android:visibility="invisible" />
+
+                <Button
+                    android:id="@+id/button5"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableEnd="@drawable/ic_arrow_right_white"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/white"
+                    android:visibility="invisible" />
+
+                <Button
+                    android:id="@+id/button6"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableEnd="@drawable/ic_arrow_right_white"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/white"
+                    android:visibility="invisible" />
+
+                <Button
+                    android:id="@+id/button7"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableEnd="@drawable/ic_arrow_right_white"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/white"
+                    android:visibility="invisible" />
+
+                <Button
+                    android:id="@+id/button8"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableEnd="@drawable/ic_arrow_right_white"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/white"
+                    android:visibility="invisible" />
+
+                <Button
+                    android:id="@+id/button9"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableEnd="@drawable/ic_arrow_right_white"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/white"
+                    android:visibility="invisible" />
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+</FrameLayout>

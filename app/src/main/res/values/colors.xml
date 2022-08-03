@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="orange">#D88628</color>
+    <color name="grey">#BDBDBD</color>
+    <color name="crownroomkings">#151515</color>
+    <color name="townline">#003799</color>
+    <color name="lincoln">#606060</color>
+    <color name="merrit">#F1683C</color>
+    <color name="steelers">#D88628</color>
+    <color name="dusters">#E04C1C</color>
+    <color name="android_grey">#2C2C2C</color>
+    <color name="dark_mode_orange">#C77833</color>
+</resources>

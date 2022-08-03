@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/circle.xml" value="0.33645833333333336" />
+        <entry key="app/src/main/res/drawable/circle2.xml" value="0.33645833333333336" />
+        <entry key="app/src/main/res/drawable/ic_arrow_right_white.xml" value="0.2548717948717949" />
+        <entry key="app/src/main/res/drawable/ic_baseline_system_update_24.xml" value="0.33645833333333336" />
+        <entry key="app/src/main/res/drawable/ic_menubar_standings_black.xml" value="0.3020833333333333" />
+        <entry key="app/src/main/res/drawable/ic_more_players_white.xml" value="0.33645833333333336" />
+        <entry key="app/src/main/res/drawable/ic_more_twitter.xml" value="0.2548717948717949" />
+        <entry key="app/src/main/res/drawable/ic_more_video_white.xml" value="0.33645833333333336" />
+        <entry key="app/src/main/res/layout/activity_wnhl_donate.xml" value="0.3203125" />
+        <entry key="app/src/main/res/layout/activity_wnhl_main.xml" value="0.3203125" />
+        <entry key="app/src/main/res/layout/activity_wnhl_notif.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/activity_wnhl_player.xml" value="0.3203125" />
+        <entry key="app/src/main/res/layout/activity_wnhl_players.xml" value="0.3203125" />
+        <entry key="app/src/main/res/layout/activity_wnhl_schedule.xml" value="0.3203125" />
+        <entry key="app/src/main/res/layout/activity_wnhl_stats.xml" value="0.3203125" />
+        <entry key="app/src/main/res/layout/activity_wnhl_team.xml" value="0.3203125" />
+        <entry key="app/src/main/res/layout/activity_wnhl_update.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_more_.xml" value="0.3203125" />
+        <entry key="app/src/main/res/layout/fragment_player_back.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_player_front.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_schedule.xml" value="0.3153846153846154" />
+        <entry key="app/src/main/res/layout/fragment_standings.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_teams.xml" value="0.3203125" />
+        <entry key="app/src/main/res/layout/schedule_cardview.xml" value="0.1" />
+        <entry key="app/src/main/res/menu/bottom_navbar.xml" value="0.21041666666666667" />
+        <entry key="app/src/main/res/menu/player_search.xml" value="0.28125" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.33645833333333336" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

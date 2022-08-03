@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <item
+        android:id="@+id/schedule"
+        android:enabled="true"
+        android:icon="@drawable/ic_menubar_schedule_black"
+        android:title="@string/menubar_schedule"/>
+    <item
+        android:id="@+id/standings"
+        android:enabled="true"
+        android:icon="@drawable/ic_menubar_standings_black"
+        android:title="@string/menubar_standings"/>
+    <item
+        android:id="@+id/teams"
+        android:enabled="true"
+        android:icon="@drawable/ic_menubar_teams_black"
+        android:title="@string/menubar_teams"/>
+    <item
+        android:id="@+id/more"
+        android:enabled="true"
+        android:icon="@drawable/ic_menubar_more_black"
+        android:title="@string/menubar_more"/>
+</menu>

@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.WNHL_Splash" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/orange</item>
+        <item name="colorOnPrimary">@color/android_grey</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/android_grey</item>
+        <item name="colorOnSecondary">@color/orange</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/orange</item>
+        <item name="android:navigationBarColor">@color/android_grey</item>
+        <item name="android:textColor">@color/android_grey</item>
+    </style>
+</resources>

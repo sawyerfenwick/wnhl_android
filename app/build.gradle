@@ -1,0 +1,69 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.2"
+
+    defaultConfig {
+        applicationId "com.wnhl.wnhl_android"
+        minSdkVersion 23
+        targetSdkVersion 30
+        versionCode 8
+        versionName "1.5.2"
+        Properties properties = new Properties()
+        if(rootProject.file("local.properties").exists()){
+            properties.load(rootProject.file("local.properties").newDataInputStream())
+        }
+        //Inject the Maps API key into the manifest
+        manifestPlaceholders = [ mapsApiKey : properties.getProperty("MAPS_API_KEY", "")]
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildFeatures {
+        // Enables Jetpack Compose for this module
+        compose true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation 'com.github.bumptech.glide:glide:4.12.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation "androidx.recyclerview:recyclerview:1.2.0-alpha04"
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.google.android.material:material:1.2.0-alpha06'
+    implementation 'androidx.compose.ui:ui:1.0.0-alpha05'
+    // Tooling support (Previews, etc.)
+    implementation 'androidx.ui:ui-tooling:1.0.0-alpha05'
+    // Foundation (Border, Background, Box, Image, Scroll, shapes, animations, etc.)
+    implementation 'androidx.compose.foundation:foundation:1.0.0-alpha05'
+    // Material Design
+    implementation 'androidx.compose.material:material:1.0.0-alpha05'
+    // Material design icons
+    implementation 'androidx.compose.material:material-icons-core:1.0.0-alpha05'
+    implementation 'androidx.compose.material:material-icons-extended:1.0.0-alpha05'
+    // Integration with observables
+    implementation 'androidx.compose.runtime:runtime-livedata:1.0.0-alpha05'
+    implementation 'androidx.compose.runtime:runtime-rxjava2:1.0.0-alpha05'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.coordinatorlayout:coordinatorlayout:1.1.0'
+    // Volley REST API Requests
+    implementation 'com.android.volley:volley:1.2.0'
+    // UI Tests
+    androidTestImplementation 'androidx.ui:ui-test:1.0.0-alpha05'
+    //Circular Image View
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+}

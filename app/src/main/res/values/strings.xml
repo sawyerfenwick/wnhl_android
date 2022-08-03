@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">WNHL</string>
+    <string name="menubar_schedule">Schedule</string>
+    <string name="menubar_standings">Standings</string>
+    <string name="menubar_more">More</string>
+    <string name="menubar_donate">Donate</string>
+    <string name="menubar_teams">Teams</string>
+    <string name="menubar_stats">Statistics</string>
+    <string name="more_players">Players</string>
+    <string name="more_video">YouTube</string>
+    <string name="more_notif_settings">Notification Settings</string>
+    <string name="more_fantasy">WNHL Fantasy</string>
+    <string name="finishing">Finishing Up…</string>
+    <string name="complete">Complete!</string>
+    <string name="downloading">Downloading Data…</string>
+    <string name="donate_desc">The WNHL Game of the Month is a monthly game that will be filmed and edited with bench interviews from the WNHL Video Production Team. Each team will be featured twice this season to see their game on the WNHL YouTube Channel and finally become famous! As with most WNHL Events we are looking to help the community. Each team will select a charity of their choosing and raise money leading up to the Game of the Month. The team that wins the Game of the Month will receive the collected funds from both teams for their respective charity. This is a fantastic chance for people to raise money, play hockey and give back!</string>
+    <string name="donate_donate">Donate Down Below!</string>
+    <string name="the_team">The Team</string>
+    <string name="games">Games</string>
+    <string name="upcoming_games">UPCOMING GAMES</string>
+    <string name="notif_text">Select a Team to receive notifications for Upcoming Games.\nTo stop receiving notifications, deselect the Team.</string>
+    <string name="notif">Notifications</string>
+    <string name="update">Checking For Updates…</string>
+    <string name="create">Creating Database…</string>
+    <string name="teamlogo">Team Logo</string>
+    <string name="statslogo">Stats Image</string>
+    <string name="stats">Statistics</string>
+    <string name="playerpicture">Player Picture</string>
+    <string name="updatebutton">Update</string>
+    <string name="updateapp">Update App</string>
+    <string name="update_text">Check For Updates from the WNHL Site</string>
+    <string name="updategames">Game Schedule</string>
+    <string name="everything">Everything</string>
+    <string name="teams">Teams</string>
+    <string name="more_twitter">Twitter</string>
+</resources>

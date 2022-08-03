@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wnhl.wnhl_android.fragments.More_Fragment"
+    android:background="@color/orange"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <ImageView
+            android:id="@+id/teamsLogoView"
+            android:layout_width="137dp"
+            android:layout_height="146dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:paddingTop="10dp"
+            android:src="@drawable/wnhl_logo" />
+
+        <ScrollView
+            android:id="@+id/teamsScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/teamsLogoView"
+            android:paddingTop="20dp">
+            <LinearLayout
+                android:id="@+id/teamsButtonHolder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <Button
+                    android:id="@+id/playerButton"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_more_players_white"
+                    android:drawableRight="@drawable/ic_arrow_right_white"
+                    android:gravity="center_vertical"
+                    android:text="@string/more_players"
+                    android:textColor="@color/white" />
+                <Button
+                    android:id="@+id/statsButton"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_more_stats_white"
+                    android:drawableRight="@drawable/ic_arrow_right_white"
+                    android:gravity="center_vertical"
+                    android:text="@string/menubar_stats"
+                    android:textColor="@color/white" />
+                <Button
+                    android:id="@+id/youtubeButton"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_more_video_white"
+                    android:drawableRight="@drawable/ic_arrow_right_white"
+                    android:gravity="center_vertical"
+                    android:text="@string/more_video"
+                    android:textColor="@color/white" />
+                <Button
+                    android:id="@+id/twitterButton"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_more_twitter"
+                    android:drawableRight="@drawable/ic_arrow_right_white"
+                    android:gravity="center_vertical"
+                    android:text="@string/more_twitter"
+                    android:textColor="@color/white" />
+                <Button
+                    android:id="@+id/fantasyButton"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_more_fantasy_white"
+                    android:drawableRight="@drawable/ic_arrow_right_white"
+                    android:gravity="center_vertical"
+                    android:text="@string/more_fantasy"
+                    android:textColor="@color/white" />
+                <Button
+                    android:id="@+id/notifButton"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_more_notif_settings_white"
+                    android:drawableRight="@drawable/ic_arrow_right_white"
+                    android:gravity="center_vertical"
+                    android:text="@string/more_notif_settings"
+                    android:textColor="@color/white" />
+                <Button
+                    android:id="@+id/updateButton"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_baseline_update_24"
+                    android:drawableRight="@drawable/ic_arrow_right_white"
+                    android:gravity="center_vertical"
+                    android:text="@string/updatebutton"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+</FrameLayout>
